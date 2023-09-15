@@ -1,0 +1,18 @@
+*{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box; /* for padding  */
+}
+.padding{
+  background: rgba(0,255,0,.5);
+  border: 1px solid #010101;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+.sort{
+  background: rgba(0, 255, 0, .5);
+  border: 1px solid #010101;
+  padding: 30px 40px 30px 100px;
+}

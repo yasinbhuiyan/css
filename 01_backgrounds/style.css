@@ -1,0 +1,38 @@
+div {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(0, 255, 0, .5);
+  margin: 30px auto;
+}
+
+.color {
+  background: rgba(0, 255, 0, .2);
+}
+
+.image {
+  background: url("../images/icon.png");
+  background-size: cover;
+}
+
+.fixed {
+  background: url("../images/icon.png");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.repeat {
+  background: url("../images/icon.png");
+  background-size: 100px;
+}
+
+.no-repeat {
+  background: url("../images/icon.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100px;
+}
+
+.short{
+  background: rgba(0,255,0,.2) url("../images/icon.png") no-repeat scroll top;
+  background-size: contain;
+}

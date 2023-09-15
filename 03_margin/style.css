@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.margin{
+  background: rgba(0,255,0,.5);
+  border: 1px solid #010101;
+  padding: 20px 30px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-bottom: 70px;
+  margin-left: 30px;
+}
+
+.margin_sort{
+  background: rgba(0,255,0,.5);
+  border: 1px solid #010101;
+  padding: 20px 30px;
+  margin: 30px 100px 70px 30px;
+}
+
+.auto{
+  width: 50%;
+  margin: auto;
+}
+.inherit{
+  border: 1px solid #010101;
+  margin: 50px;
+}
+.inherit p{
+  background: rgba(0,255,0,.5);
+  border: 1px solid #010101;
+  padding: 20px 30px;
+  margin: inherit;
+}
