@@ -3,34 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: black
+}
 .margin{
-  width: 450px;
+  width: 90%;
   height: 385px;
   padding: 45px;
   border: 1px dashed #bbb;
   margin: 20px auto;
   background: #f1f1f1;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .border{
-  width: 360px;
-  height: 295px;
+  width: 100%;
+  height: 100%;
   padding: 45px;
   background: #04AA6D;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .padding{
-  width: 270px;
-  height: 205px;
+  width: 100%;
+  height: 100%;
   padding: 45px;
   background: #f1f1f1;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content{
-  width: 180px;
-  height: 115px;
-  padding: 20px;
-  border: 1px dashed #ddd;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #ccc;
   background: #FFFFFF;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  position: absolute;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  top: 15px;
+}
+.p{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: capitalize;
 }
