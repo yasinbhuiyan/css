@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 body{
   background: black;
@@ -11,45 +11,56 @@ body{
 }
 .margin{
   width: 90%;
-  height: 385px;
+  height: 475px;
   padding: 45px;
   border: 1px dashed #bbb;
   margin: 20px auto;
-  background: #f1f1f1;
-  position: relative;
+  background: #04AA6D;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.outline{
+  width: 100%;
+  height: 100%;
+  padding: 45px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .border{
   width: 100%;
   height: 100%;
   padding: 45px;
   background: #04AA6D;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .padding{
   width: 100%;
   height: 100%;
   padding: 45px;
   background: #f1f1f1;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .content{
   width: 100%;
   height: 100%;
-  border: 1px dashed #ccc;
+  padding: 10px;
+  border: 1px dashed #bbb;
   background: #FFFFFF;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .text{
   position: absolute;
@@ -57,12 +68,12 @@ body{
 }
 
 
-.box{
-  box-sizing: border-box;
+.outline1{
   width: calc(90% - 90px);
-  height: 300px;
-  background: #FFFFFF;
+  height: 295px;
   padding: 45px;
   border: 45px solid #04AA6D;
-  margin: 45px auto;
+  outline: 45px solid #FFFFFF; /* outline don't grab space */
+  margin: 90px auto;
+  color: #FFFFFF;
 }

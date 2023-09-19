@@ -7,17 +7,6 @@ p{
   border-color: #FF0000 #05FF08 #0006FF #099AFF;
 }
 
-/* border style */
-.border_style{
-  border-top-style: solid;
-  border-right-style: double;
-  border-bottom-style: dashed;
-  border-left-style: dotted;
-}
-.border_styl{
-  border-style: solid double dashed dotted;
-}
-
 /* border width */
 .border_width{
   border-style: solid;
@@ -29,6 +18,17 @@ p{
 .border_wid{
   border-style: solid;
   border-width: 3px 2px 3px 5px;
+}
+
+/* border style */
+.border_style{
+  border-top-style: solid;
+  border-right-style: double;
+  border-bottom-style: dashed;
+  border-left-style: dotted;
+}
+.border_styl{
+  border-style: solid double dashed dotted;
 }
 
 /* border color */
