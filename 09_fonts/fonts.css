@@ -1,3 +1,9 @@
+p{
+  padding: 15px;
+  background: #eee;
+  margin: 20px 0;
+  display: block;
+}
 /* font style */
 .font__style0{
   font-style: normal;
