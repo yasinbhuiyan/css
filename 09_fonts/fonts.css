@@ -1,0 +1,65 @@
+/* font style */
+.font__style0{
+  font-style: normal;
+}
+.font__style1{
+  font-style: italic;
+}
+
+/* font variant */
+.font__variant0{
+  font-variant: normal;
+}
+.font__variant1{
+  font-variant: small-caps;
+}
+
+/* font weight */
+.font__weight0{
+  font-weight: normal;
+}
+.font__weight1{
+  font-weight: bold;
+}
+
+/* font size */
+.font__size__Pixels{
+  font-size: 16px;
+}
+.font__size__em{
+  font-size: 1em; 
+}
+.font__size__vw{
+  font-size: 3.5vw;
+}
+
+/* font family */
+.font__family1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font__family2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.font__family3{
+  font-family: 'Courier New', Courier, monospace;
+}
+.font__family4{
+  font-family: cursive;
+}
+.font__family5{
+  font-family: fantasy;
+}
+
+/* font */
+.font{
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 30px;
+  font-family: Cinzel, serif;
+}
+.font__shorthand{
+  font: italic small-caps bold 1em/30px Cinzel, serif;
+}
+
