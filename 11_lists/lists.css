@@ -1,0 +1,36 @@
+ul, ol{
+  background: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Unodered List */
+.circle{
+  list-style-type: circle;
+}
+.square{
+  list-style-type: square;
+}
+
+/* Ordered List */
+.roman{
+  list-style-type: lower-roman;
+}
+.alpha{
+  list-style-type: upper-alpha;
+}
+
+.image{
+  list-style-image: url('../images/icon1.png');
+}
+
+
+.inside{
+  list-style-position: inside;
+}
+.outside{
+  list-style-position: outside;
+}
+
+.list_short{
+  list-style: square outside url('../images/icon1.png');
+}
