@@ -1,0 +1,19 @@
+div{
+  width: 250px;
+  height: 150px;
+  background: #eee;
+  padding: 15px 20px;
+  margin: 60px auto;
+}
+.visible{
+  overflow: visible;
+}
+.hidden{
+  overflow: hidden;
+}
+.scroll{
+  overflow: scroll;
+}
+.auto{
+  overflow: auto;
+}
