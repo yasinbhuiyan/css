@@ -13,7 +13,7 @@ ul, ol{
 
 /* Ordered List */
 .roman{
-  list-style-type: lower-roman;
+  list-style-type: /*decimal*/ lower-roman;
 }
 .alpha{
   list-style-type: upper-alpha;
