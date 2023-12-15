@@ -1,12 +1,12 @@
 div {
   width: 300px;
   height: 300px;
-  border: 1px solid rgba(0, 255, 0, .5);
+  border: 1px solid var(--clr);
   margin: 30px auto;
 }
 
 .color {
-  background: rgba(0, 255, 0, .2);
+  background: var(--clr);
 }
 
 .image {
@@ -33,6 +33,6 @@ div {
 }
 
 .short{
-  background: rgba(0,255,0,.2) url("../images/icon.png") no-repeat scroll top;
+  background: var(--clr) url("../images/icon.png") no-repeat scroll top;
   background-size: contain;
 }

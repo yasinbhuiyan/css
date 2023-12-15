@@ -4,14 +4,13 @@ p{
 .outline{
   outline-width: 2px;
   outline-style: solid; /* doesn't support more than one value*/
-  outline-color: #000000;
+  outline-color: #FFFFFF;
 }
 .outline_short{
-  outline: 2px solid #000000;
+  outline: 2px solid #FFFFFF;
 }
 .outline_offset{
-  border: 2px dashed #000000;
+  border: 2px dashed #FFFFFF;
   outline-offset: 10px;
-  outline: 2px solid #04AA6D;
-  margin: 10px;
+  outline: 2px solid var(--clr);
 }

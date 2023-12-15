@@ -2,34 +2,28 @@
   margin: 0;
   padding: 0;
 }
+div, p{
+  background: var(--clr);
+  color: #FFFFFF;
+  padding: 20px 30px;
+}
 .margin{
-  background: rgba(0,255,0,.5);
-  border: 1px solid #010101;
-  padding: 20px 30px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 20px;
   margin-bottom: 70px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
-
 .margin_sort{
-  background: rgba(0,255,0,.5);
-  border: 1px solid #010101;
-  padding: 20px 30px;
-  margin: 30px 100px 70px 30px;
+  margin: 30px 20px 70px 60px;
 }
-
 .auto{
-  width: 50%;
-  margin: auto;
+  width: 80%;
+  margin: 0 auto;
 }
 .inherit{
-  border: 1px solid #010101;
-  margin: 50px;
+  margin: 100px;
 }
 .inherit p{
-  background: rgba(0,255,0,.5);
-  border: 1px solid #010101;
-  padding: 20px 30px;
+  border: 2px dashed #000000;
   margin: inherit;
 }

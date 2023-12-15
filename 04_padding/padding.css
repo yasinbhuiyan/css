@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box; /* for padding  */
 }
+div{
+  background: var(--clr);
+  color: #FFFFFF;
+}
 .padding{
-  background: rgba(0,255,0,.5);
-  border: 1px solid #010101;
-  padding-top: 30px;
-  padding-right: 40px;
-  padding-bottom: 30px;
-  padding-left: 100px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
 }
 .sort{
-  background: rgba(0, 255, 0, .5);
-  border: 1px solid #010101;
-  padding: 30px 40px 30px 100px;
+  padding: 50px 30px 40px 50px;
 }
