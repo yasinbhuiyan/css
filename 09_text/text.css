@@ -1,18 +1,19 @@
 p, a{
   padding: 15px;
-  background: #eee;
+  background: #1F1F1F;
   margin: 20px 0;
   display: block;
 }
-/* color and background */
+
+/*--------------------
+color and background */
 .color_background{
-  background: #000000;
-  color: #FFFFFF;
+  background: #CECECE;
+  color: #000000;
 }
 
-/*--------
-text align
----------*/
+/*----------
+text align */
 .center{
   text-align: center;
 }
@@ -50,7 +51,6 @@ text align
   vertical-align: sub;
 }
 
-
 /*-------------
 text decoration
 --------------*/
@@ -59,26 +59,25 @@ text decoration
 }
 .overline{
   text-decoration-line: overline;
-  text-decoration-color: #FF0000;
+  text-decoration-color: var(--clr);
   text-decoration-style: dashed;
   text-decoration-thickness: 5px;
 }
 .line-through{
   text-decoration-line: line-through;
-  text-decoration-color: #00FF00;
+  text-decoration-color: var(--clr);
   text-decoration-style: double;
   text-decoration-thickness: 2px;
 }
 .underline_overline{
   text-decoration-line: underline overline;
-  text-decoration-color: #0000FF;
+  text-decoration-color: var(--clr);
   text-decoration-style: wavy;
   text-decoration-thickness: 3px;
 }
 .shorthand{
-  text-decoration: underline #FF0000 solid 5px;
+  text-decoration: underline var(--clr) solid 5px;
 }
-
 
 /*-----------------
 text transformation 
@@ -93,7 +92,6 @@ text transformation
   text-transform: capitalize;
 }
 
-
 /*----------
 Text Spacing
 -----------*/
@@ -104,10 +102,10 @@ Text Spacing
   letter-spacing: 5px;
 }
 .line_height_small{
-  line-height: 0.7
+  line-height: 0.7;
 }
 .line_height_bigger{
-  line-height: 1.6
+  line-height: 1.6;
 }
 .word_spacing{
   word-spacing: 30px;
@@ -117,11 +115,10 @@ Text Spacing
   white-space: nowrap;
 }
 
-
 /*----------
 Text Shadow
 -----------*/
 .text_shadow{
-  text-shadow: 10px 10px 10px #00FF00,
-              -10px -10px 10px #FF0000
+  text-shadow: 10px 10px 10px var(--clr),
+              -10px -10px 10px #FF0000;
 }
