@@ -1,9 +1,10 @@
 p{
   padding: 15px;
-  background: #eee;
+  background: #1F1F1F;
   margin: 20px 0;
   display: block;
 }
+
 /* font style */
 .font__style0{
   font-style: normal;
@@ -41,13 +42,13 @@ p{
 
 /* font family */
 .font__family1{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 .font__family2{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
 }
 .font__family3{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Monaco, 'Lucida Console' ,'Courier New', Courier, monospace;
 }
 .font__family4{
   font-family: cursive;
@@ -66,6 +67,6 @@ p{
   font-family: Cinzel, serif;
 }
 .font__shorthand{
-  font: italic small-caps bold 1em/30px Cinzel, serif;
+  font: italic small-caps bold 1em/30px serif;
 }
 

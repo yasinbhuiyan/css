@@ -1,7 +1,6 @@
 ul, ol{
-  background: #eee;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background: #1F1F1F;
+  padding: 10px 50px;
 }
 /* Unodered List */
 .circle{
@@ -19,11 +18,12 @@ ul, ol{
   list-style-type: upper-alpha;
 }
 
+/* image as item marker */
 .image{
   list-style-image: url('../images/icon1.png');
 }
 
-
+/* position */
 .inside{
   list-style-position: inside;
 }
@@ -31,6 +31,7 @@ ul, ol{
   list-style-position: outside;
 }
 
+/* shorthand */
 .list_short{
-  list-style: square outside url('../images/icon1.png');
+  list-style: circle outside url('../images/icon1.png');
 }
