@@ -17,3 +17,11 @@ div{
 .auto{
   overflow: auto;
 }
+
+.x_y p{
+  white-space: nowrap;
+}
+.x_y{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
