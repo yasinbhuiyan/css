@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta tag -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+  
+  <!-- common style -->
+  <link rel="stylesheet" href="../style.css">
+  
+  <!-- custom style -->
+  <link rel="stylesheet" href="./float.css">
+  
+  <!-- title -->
+  <title>CSS</title>
+</head>
+<body>
+  <!-- Without clearfix -->
+  <div class="img_float_left">
+    <img src="https://picsum.photos/200" alt="image">
+    <p>Float without clearfix. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et natus delectus deleniti inventore harum reprehenderit ducimus culpa laboriosam maxime dolorum.</p>
+  </div>
+  <div class="img_float_right">
+    <img src="https://picsum.photos/200" alt="image">
+    <p>Float without clearfix. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cumque, ducimus dolor, ex fugit accusamus veniam numquam deserunt nisi eligendi?</p>
+  </div>
+  
+  <!-- With clearfix -->
+  <div class="img_float_left clearfix">
+    <img src="https://picsum.photos/200" alt="image">
+    <p>Float with clearfix. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et natus delectus deleniti inventore harum reprehenderit ducimus culpa laboriosam maxime dolorum.</p>
+  </div>
+  <div class="img_float_right clearfix">
+    <img src="https://picsum.photos/200" alt="image">
+    <p>Float with clearfix. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cumque, ducimus dolor, ex fugit accusamus veniam numquam deserunt nisi eligendi?</p>
+  </div>
+  
+  <!-- div float -->
+  <div class="div_float clearfix">
+    <div>Div1</div>
+    <div>Div2</div>
+    <div>Div3</div>
+  </div>
+</body>
+</html>

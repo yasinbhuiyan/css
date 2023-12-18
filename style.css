@@ -8,3 +8,7 @@ body{
 :root{
   --clr: #00DD00;
 }
+::selection{
+  color: #FFFFFF;
+  background: #000000;
+}

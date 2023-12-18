@@ -1,0 +1,9 @@
+.col{
+  float: none
+}
+.nav, .section{
+  width: 100%;
+}
+.section{
+  padding: 15px 0;
+}

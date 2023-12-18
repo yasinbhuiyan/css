@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  background: #1f1f1f;
+  margin-bottom: 50px;
+}
+p{
+  font-size: 15px;
+  padding: 15px;
+}
+img{
+  padding: 15px;
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: table;
+  /* overflow: auto; scrollbar issue  */
+}
+.img_float_left img{
+  float: left;
+}
+.img_float_right img{
+  float: right;
+}
+
+.div_float{
+  background: none;
+}
+.div_float div{
+  float: left;
+  padding: 30px 50px;
+  margin: 10px;
+}
