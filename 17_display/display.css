@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  width: calc(50% - 20px);
+  height: 100px;
+  padding: 20px 25px;
+  border: 2px solid #FFFFFF;
+  margin: 50px 10px;
+}
+.inline{
+  display: inline;
+}
+.inline-block{
+  display: inline-block;
+}
+.block{
+  display: block;
+}
