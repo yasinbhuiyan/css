@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta tag -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+  
+  <!-- common style -->
+  <link rel="stylesheet" href="../style.css">
+  
+  <!-- custom style -->
+  <link rel="stylesheet" href="./combinators.css">
+  
+  <!-- title -->
+  <title>CSS Combinators</title>
+</head>
+<body>
+  <!-- descendant selector (space) -->
+  <div class="descendant">
+    <p>This is the child of this div</p>
+    <p>This is the child of this div</p>
+    <section><p>This isn't the child of this div but inside of div.</p></section>
+  </div>
+  
+  <!-- child selector (>) -->
+  <div class="child">
+    <p>This is the child of this div</p>
+    <p>This is the child of this div</p>
+    <section><p>This isn't the child of this div but inside of div.</p></section>
+  </div>
+  
+  <!-- adjacent sibling selector (+) -->
+  <div>
+    <section class="adjacent">
+      <p>This is the child of this div</p>
+      <p>This is the child of this div</p>
+    </section>
+    <p>This is next of this div</p>
+    <p>This is next of this div</p>
+  </div>
+  
+  <!-- general sibling selector (~) -->
+  <div>
+    <section class="general">
+      <p>This is the child of this div</p>
+      <p>This is the child of this div</p>
+    </section>
+    <p>This is next of this div</p>
+    <p>This is next of this div</p>
+    <p>This is next of this div</p>
+  </div>
+</body>
+</html>
