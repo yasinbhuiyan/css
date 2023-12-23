@@ -1,0 +1,58 @@
+.common{
+  color: #FFFFFF;
+  padding: 15px 20px;
+  background: #1f1f1f;
+  margin: 15px 0;
+}
+
+/* anchor pseudo-classes */
+a:link, a:visited{
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+}
+a:hover, a:active{
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* make tooltip by hover */
+.div_tooltip{
+   position: relative;
+ }
+.tooltip{
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  margin: 0;
+  background: #D2D2D2;
+  color: #000000;
+  padding: 10px;
+  display: none;
+}
+.tooltip::after{
+  content: '';
+  border: 10px solid;
+  border-color: #D2D2D2 transparent transparent transparent;
+  position: absolute;
+  top: 39px;
+  left: 61px;
+}
+.div_tooltip:hover .tooltip{
+  display: block;
+}
+
+/* first child */
+.first_child p:first-child{
+  background: #D2D2D2;
+  color: #000000;
+  padding: 15px 20px;
+}
+.first_child p:first-child span:first-child{
+  color: #00AA00
+}
+
+q:lang(another){
+  quotes: "~[" "]~"
+}

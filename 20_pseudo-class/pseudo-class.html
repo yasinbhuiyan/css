@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta tag -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon" />
+  
+  <!-- common style -->
+  <link rel="stylesheet" href="../style.css">
+  
+  <!-- custom style -->
+  <link rel="stylesheet" href="./pseudo-class.css">
+  
+  <!-- title -->
+  <title>CSS Pseudo Class</title>
+</head>
+<body>
+  <!-- anchor pseudo-classes -->
+  <a class="common" href="#">This is a link</a>
+  
+  <!-- make tooltip by hover -->
+  <div class="div_tooltip common">To see tooltip hover on these
+    <p class="tooltip">This is a Tooltip</p>
+  </div>
+  
+  <!-- first-child Pseudo-class -->
+  <div class="first_child common">
+    <p><span>First</span> child of this <span>div</span></p>
+    <p><span>Second</span> child of this <span>div</span></p>
+  </div>
+  <div class="first_child common">
+    <p><span>First</span> child of this <span>div</span></p>
+    <p><span>Second</span> child of this <span>div</span></p>
+  </div>
+  
+  <!-- lang pseudo class -->
+  <p class="common">some text <q lang="another">different language</q> some text.</p>
+</body>
+</html>
