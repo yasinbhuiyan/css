@@ -1,0 +1,47 @@
+p, div{
+  padding: 30px 40px;
+  background: #1f1f1f;
+  margin: 20px 0;
+}
+
+.before::before{
+  content: '';
+  display: block;
+  width: 400px;
+  height: 100px;
+  background: var(--clr);
+}
+.after::after{
+  content: '';
+  display: block;
+  width: 400px;
+  height: 100px;
+  background: var(--clr);
+}
+.first_letter::first-letter{
+  font-size: 30px;
+  color: #FFFFFF;
+  background: #464646;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #FFFFFF;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+.first_line::first-line{
+  font-variant: small-caps; 
+  color: #FFFFFF;
+  background: #464646;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+::marker{
+  color: var(--clr);
+  font-size: 16px;
+}
+.selection::selection{
+  background: var(--clr);
+  color: #FFFFFF;
+}
