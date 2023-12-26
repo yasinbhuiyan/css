@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.vertical__menu{
+  list-style: none;
+  width: 30%;
+  height: 100%;
+  background: #1F1F1F;
+  position: fixed;
+  overflow: auto;
+}
+.vertical__menu li a{
+  display: block;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.vertical__menu li a.active{
+  background: var(--clr);
+  color: #FFFFFF;
+}
+.vertical__menu li a:hover:not(.active){
+  background: #FFFFFF;
+  color: #000000;
+}
+.vertical__div{
+  margin-left: 30%;
+  width: 70%;
+  padding: 20px 15px;
+  line-height: 1.7;
+}
+.vertical__div p{
+  line-height: 2.5;
+  text-align: justify;
+  letter-spacing: 15px;
+}
