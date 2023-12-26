@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+div{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img__opacity{
+  opacity: 0.5;
+}
+.img__opacity:hover{
+  opacity: 1;
+}
+.div__opacity{
+  background: var(--clr);
+  opacity: 0.5;
+}
+.div__opacity:hover{
+  opacity: 1;
+}
+.back__img{
+  background: url(https://picsum.photos/400/300) no-repeat;
+  padding: 70px 40px;
+}
+.transparent{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  opacity: 0.6;
+  /* background: rgba(255, 255, 255, 0.6) */
+}
+.transparent p{
+  text-align: center;
+  padding: 60px 20px;
+  color: #000000;
+}
