@@ -6,7 +6,7 @@
 /* dropdown hoverable */
 .dropdown_hoverable{
   position: relative;
-  display: block;
+  display: inlune-block;
 }
 .dropdown_hoverable_content{
   background: #000000;
@@ -32,7 +32,7 @@
   width: 100%;
   padding: 15px;
   margin-top: 20px;
-  background: #00ff00;
+  background: var(--clr);
   border: none;
   cursor: pointer;
 }
@@ -55,4 +55,46 @@
 }
 .dropdown_menu:hover .dropdown_menu_content{
   display: block;
+}
+
+/* dropdown image */
+.dropdown__image{
+  width: 150px;
+  height: 150px;
+  background: #000000 url('../images/icon.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  margin: 50px auto;
+  box-shadow: 0px 1px 5px #737373;
+}
+.dropdown__image > p{
+  text-align: center;
+  padding: 70px 0;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.6);
+  
+}
+.dropdown__image__content{
+  width: 200px;
+  background: #000000;
+  box-shadow: 0px 5px 15px #737373;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.dropdown__image__content img{
+  width: 100%;
+}
+.dropdown__image__content p{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background: #222222;
+}
+.dropdown__image:hover .dropdown__image__content{
+  display: block;
+}
+.dropdown__image:hover p{
+  background: rgba(0, 0, 0, 0.8);
 }
