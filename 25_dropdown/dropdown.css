@@ -1,12 +1,9 @@
-.cont{
-  padding: 15px;
-  background: #1f1f1f;
-}
-
 /* dropdown hoverable */
 .dropdown_hoverable{
   position: relative;
-  display: inlune-block;
+  display: inline-block;
+  padding: 15px;
+  background: #1f1f1f;
 }
 .dropdown_hoverable_content{
   background: #000000;
@@ -72,8 +69,7 @@
   text-align: center;
   padding: 70px 0;
   color: #FFFFFF;
-  background: rgba(0, 0, 0, 0.6);
-  
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01));
 }
 .dropdown__image__content{
   width: 200px;
@@ -90,11 +86,11 @@
   text-align: center;
   margin: 0;
   padding: 10px;
-  background: #222222;
+  background: #111;
 }
 .dropdown__image:hover .dropdown__image__content{
   display: block;
 }
-.dropdown__image:hover p{
+.dropdown__image:hover > p{
   background: rgba(0, 0, 0, 0.8);
 }
