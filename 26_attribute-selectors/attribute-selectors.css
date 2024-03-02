@@ -1,0 +1,43 @@
+p{
+  padding: 15px;
+  background: #1F1F1F;
+  margin: 20px 0;
+}
+
+/* CSS [attribute] selector */
+p[title]{
+  color: #FF0000;
+}
+
+/* CSS [attribute="value"] selector */
+p[title="attribute value"]{
+  color: #00FF00;
+}
+
+/* CSS [attribute~="value"] selector */
+p[title~="any"]{
+  color: #0000FF;
+}
+
+/* CSS [attribute|="value"] selector */
+p[title|="only"]{
+  color: #000;
+  background: #FF0000;
+}
+
+/* CSS [attribute^="value"] selector */
+p[title^="start"]{
+  color: #000;
+  background: #00FF00;
+}
+
+/* CSS [attribute$="value"] selector */
+p[title$="ending"]{
+  color: #FFF;
+  background: #0000FF;
+}
+
+/* CSS [attribute*="value"] selector */
+p[title*="anywher"]{
+  color: #FF0000;
+}
