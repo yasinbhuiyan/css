@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.col-25, .col-75{
+  width: 100%;
+  margin-top: 6px;
+}
+.heading{
+  text-align: center;
+  padding: 20px;
+  font-size: 30px
+}
+section{
+  padding: 10px;
+}
+form{
+  padding: 20px;
+  background: #242424;
+  border-radius: 5px;
+}
+.container{
+  padding: 20px;
+  background: #222;
+}
+label{
+  padding: 20px 15px 8px 0;
+  display: inline-block;
+}
+input, select, textarea{
+  background: #222;
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #ddd;
+}
+.number{
+  display: flex;
+}
+select[id="code"]{
+  width: 25%;
+}
+input[id="phone"]{
+  width: 75%;
+  margin-left: 10px; 
+}
+textarea{
+  height: 200px;
+}
+input[id="submit"]{
+  background: var(--clr);
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #818181;
+  font-size: 18px;
+  margin: 20px 0
+}
+
+
+@media screen and (min-width: 600px) {
+  .col-25{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  }
+  .col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  label{
+    padding: 0;
+  }
+  input[id="submit"]{
+    float: right;
+    width: 150px;
+  }
+}
