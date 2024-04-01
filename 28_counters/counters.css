@@ -1,0 +1,20 @@
+body{
+  counter-reset: section;
+}
+h1{
+  font-size: 20px;
+  counter-reset: sub-section;
+}
+h2{
+  font-size: 18px;
+}
+h1::before{
+  counter-increment: section;
+  content: "Section " counter(section) " : ";
+  color: var(--clr);
+}
+h2::before{
+  counter-increment: sub-section;
+  content: counter(section) "." counter(sub-section) " ";
+  color: #ff0000
+}
