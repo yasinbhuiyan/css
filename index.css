@@ -63,3 +63,10 @@ li a:hover{
 .css_link:hover{
   transform: scale(1.2)
 }
+.advance{
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #6A966A;
+  font-size: 14px;
+  display: block;
+}
