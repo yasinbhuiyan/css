@@ -7,6 +7,7 @@ div{
   background: var(--clr);
   padding: 50px;
   margin: 10px 0;
+  color: #000;
 }
 .calc{
   width: calc(100% - 100px);
