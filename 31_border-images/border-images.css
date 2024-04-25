@@ -27,7 +27,7 @@ div{
   width: 200px;
   /* border-width: 5px none none 5px;
   border-style: solid; */
-  border-inline-start: 5px solid;
-  border-block-start: 5px solid;
+  border-inline-start: 3px solid;
+  border-block-start: 3px solid;
   border-image: radial-gradient(circle at top left, limegreen, transparent 50%) 1;
 }
