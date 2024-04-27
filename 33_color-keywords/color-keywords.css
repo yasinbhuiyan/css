@@ -1,0 +1,48 @@
+div{
+  height: 300px;
+  width: min(100%, 400px);
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+
+/* transparent Keyword */
+.transparent{
+  background-image: url(../images/background.png);
+  position: relative;
+  padding: 70px 20px;
+}
+p[class^="transparent__with"]{
+  color: #FFFFFF;
+  padding: 15px;
+  border: 2px solid #FFFFFF;
+  margin: 15px 0;
+}
+.transparent__with{
+  background-color: transparent;
+}
+.transparent__without{
+  background-color: #000000;
+}
+
+
+/* currentcolor Keyword */
+.currentcolor{
+  color: #00DD00;
+  padding: 20px 30px;
+  border: 2px solid currentColor;
+  box-shadow: 0px 0px 15px currentColor;
+}
+
+/* inherit Keyword */
+.inherit{
+  color: #FFFF00;
+  padding: 20px 30px;
+  border: 4px double currentcolor;
+  box-shadow: 0px 0px 15px currentColor;
+}
+.inherit__p{
+  padding: inherit;
+  border: inherit;
+  box-shadow: inherit;
+}

@@ -1,9 +1,8 @@
 div{
   height: 300px;
-  width: 400px;
+  width: min(400px, 100%);
   margin: 50px auto;
-  box-shadow: 10px 10px 10px #555,
-              -5px -5px 5px #555;
+  box-shadow: 0px 0px 15px #A6A6A6;
   box-sizing: border-box;
 }
 
