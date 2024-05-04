@@ -1,0 +1,21 @@
+div{
+  height: 300px;
+  width: min(100%, 400px);
+  margin: 50px auto;
+  box-sizing: border-box;
+  text-align: center;
+  color: #000;
+}
+.radial_default{
+  background-image: radial-gradient(red, yellow, green);
+}
+.radial_circle{
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+.radial_repeat{
+  background: repeating-radial-gradient(red, red 5%, yellow 5%, yellow 10%);
+}
+.radial_all{
+  background: repeating-radial-gradient(circle at top left, red 0%, red 4%, yellow 4%, yellow 8%, limegreen 8%, limegreen 12%);
+  /* background: repeating-radial-gradient(circle at top left, red 0% 4%, yellow 4% 8%, limegreen 8% 12%); */
+}
