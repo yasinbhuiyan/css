@@ -1,0 +1,24 @@
+div{
+  height: 400px;
+  width: 400px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  text-align: center;
+  color: #000;
+}
+.conic_gradients{
+  background-image: conic-gradient(red, yellow, green);
+}
+.conic_gradients_deg{
+  background-image: conic-gradient(red 90deg, yellow 180deg, green 270deg)
+}
+.conic_gradients_pie{
+  background-image: conic-gradient(red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg, blue 270deg 360deg);
+  border-radius: 50%;
+}
+.conic_gradients_all{
+  background-image: conic-gradient(from 180deg at 30% 20%, red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg, blue 270deg 360deg);
+}
+.conic_gradients_repeat{
+  background-image: repeating-conic-gradient(red 0deg 15deg, yellow 15deg 30deg, limegreen 30deg 45deg, blue 45deg 60deg)
+}
