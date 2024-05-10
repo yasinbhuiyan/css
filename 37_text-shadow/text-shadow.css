@@ -1,0 +1,23 @@
+p{
+  font-size: 35px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.shadow_simple{
+  text-shadow: 3px 3px;
+}
+.shadow_color{
+  text-shadow: 3px 3px var(--clr);
+}
+.shadow_blur{
+  text-shadow: 3px 3px 3px var(--clr);
+}
+.shadow_neon{
+  text-shadow: 0 0 10px #00FF00;
+}
+.shadow_multiple{
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #00FF00, 0 0 25px #00CC00;  
+}
+.shadow_border{
+  text-shadow: 0 -1px #00FF00, 1px 0 #00FF00, 0 1px #00FF00, -1px 0 #00FF00;
+}
