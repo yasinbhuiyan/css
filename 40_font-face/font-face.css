@@ -1,0 +1,63 @@
+p::before{
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  text-transform: lowercase;
+  font-family: monospace;
+}
+p{
+  text-transform: capitalize;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  width: 300px;
+  border: 2px solid var(--clr);
+  padding: 20px;
+  margin: 30px auto;
+}
+
+
+@font-face{
+  font-family: Sansation;
+  src: url(../font_family/Sansation_Light.ttf);
+  font-weight: 100;
+}
+@font-face{
+  font-family: Sansation;
+  src: url(/font_family/Sansation_Regular.ttf);
+  font-weight: 400;
+}
+@font-face{
+  font-family: Sansation;
+  src: url(../font_family/Sansation_Bold.ttf);
+  font-weight: 700;
+}
+
+
+
+.Sansation_Light::before{
+  content: 'font-weight: 100;';
+}
+.Sansation_Light{
+  font-family: Sansation;
+  font-weight: 100;
+}
+
+
+.Sansation_Regular::before{
+  content: 'font-weight: 400;';
+}
+.Sansation_Regular{
+  font-family: Sansation;
+  font-weight: 400;
+}
+
+
+.Sansation_Bold::before{
+  content: 'font-weight: 700;';
+}
+.Sansation_Bold{
+  font-family: Sansation;
+  font-weight: 700;
+}
