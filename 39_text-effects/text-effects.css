@@ -1,0 +1,64 @@
+p::before{
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  text-transform: lowercase;
+  font-family: monospace;
+}
+p{
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  width: 300px;
+  border: 2px solid var(--clr);
+  padding: 20px;
+  margin: 30px auto;
+}
+
+
+.text_overflow::before{
+  content: 'text-overflow: ellipsis;';
+}
+.text_overflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text_overflow:hover{
+  white-space: wrap;
+}
+
+
+.word_wrap::before{
+  content: 'word-wrap: break-word;'
+}
+.word_wrap{
+  word-wrap: break-word;
+}
+.word_wrap:hover{
+  word-wrap: normal;
+}
+
+
+.word_break::before{
+  content: 'word-break: break-all;';
+}
+.word_break{
+  word-break: break-all;
+}
+.word_break:hover{
+  word-break: keep-all;
+}
+
+
+.writing_mode::before{
+  content: 'writing-mode: vertical-lr;';
+}
+.writing_mode{
+  writing-mode: vertical-lr;
+}
+.writing_mode:hover{
+  writing-mode: horizontal-tb;
+}
