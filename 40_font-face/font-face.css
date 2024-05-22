@@ -20,17 +20,17 @@ p{
 
 @font-face{
   font-family: Sansation;
-  src: url(../font_family/Sansation_Light.ttf);
+  src: url(./sansation_light.ttf);
   font-weight: 100;
 }
 @font-face{
   font-family: Sansation;
-  src: url(/font_family/Sansation_Regular.ttf);
+  src: url(./sansation_regular.ttf);
   font-weight: 400;
 }
 @font-face{
   font-family: Sansation;
-  src: url(../font_family/Sansation_Bold.ttf);
+  src: url(./sansation_bold.ttf);
   font-weight: 700;
 }
 
