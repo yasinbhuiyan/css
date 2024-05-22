@@ -8,7 +8,7 @@ div{
 
 /* transparent Keyword */
 .transparent{
-  background-image: url(../images/background.png);
+  background-image: url(../32_multiple-backgrounds/images/background.png);
   position: relative;
   padding: 70px 20px;
 }

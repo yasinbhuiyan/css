@@ -20,7 +20,7 @@ ul, ol{
 
 /* image as item marker */
 .image{
-  list-style-image: url('../images/icon1.png');
+  list-style-image: url('./images/bullet.png');
 }
 
 /* position */
@@ -33,5 +33,5 @@ ul, ol{
 
 /* shorthand */
 .list_short{
-  list-style: circle outside url('../images/icon1.png');
+  list-style: circle outside url('./images/bullet.png');
 }

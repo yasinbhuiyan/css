@@ -8,31 +8,31 @@ div{
 
 /* multiple background */
 .multi_back{
-  background-image: url(../images/background2.png), url(../images/background.png);
+  background-image: url(./images/background2.png), url(./images/background.png);
   background-repeat: no-repeat, repeat;
   background-position: right bottom, left top;
 }
 .multi_back_short{
-  background: url(../images/background2.png) no-repeat right bottom, url(../images/background.png) repeat left top;
+  background: url(./images/background2.png) no-repeat right bottom, url(./images/background.png) repeat left top;
 }
 
 
 
 /* background-size property */
 .back_size{
-  background-image: url(../images/background2.png);
+  background-image: url(./images/background2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100px;
 }
 .back_size_cover{
-  background-image: url(../images/background2.png);
+  background-image: url(./images/background2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .back_size_contain{
-  background-image: url(../images/background2.png);
+  background-image: url(./images/background2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -43,9 +43,9 @@ div{
 div[class^="back_origin"],div[class^="back_clip"]{
   box-shadow: none;
   padding: 35px;
-  border: 10px solid rgba(255, 255, 255, .4);
-  background-color: #F52525;
-  background-image: url(../images/background2.png);
+  border: 10px solid rgba(255, 255, 255, .7);
+  background-color: #00CC00;
+  background-image: url(./images/background2.png);
   background-repeat: no-repeat;
 }
 
