@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 div{
   width: 330px;
@@ -13,50 +12,48 @@ div{
   font-family: monospace;
 }
 .main_form{
-  margin: 150px auto;
+  margin: 100px auto;
   padding: 0;
   background-color: rgba(0, 204, 0, 0.6);
 }
+.main_form > div{
+  transition: all 1s linear; 
+}
 
 
-
-.translate{
+.translate:hover{
   transform: translate(50px, 60px);
 }
 
 
-
-.rotate{
+.rotate:hover{
   transform: rotate(-20deg);
 }
 
 
-
-.scale{
+.scale:hover{
   transform: scale(1.3, 1.6);
 }
-.scalex{
+.scalex:hover{
   transform: scaleX(1.3);
 }
-.scaley{
+.scaley:hover{
   transform: scaleY(1.6);
 }
 
 
-
-.skew{
+.skew:hover{
   transform: skew(15deg, 10deg);
 }
-.skewx{
+.skewx:hover{
   transform: skewX(15deg);
 }
-.skewy{
+.skewy:hover{
   transform: skewY(10deg);
 }
 
 
-
-.matrix{
+.matrix:hover{
   transform: matrix(1.3, 0.3, 0.1, 1.6, 0, 0);
           /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
 }

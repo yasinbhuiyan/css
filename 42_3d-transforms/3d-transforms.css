@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div{
+  width: 330px;
+  height: 180px;
+  background-color: rgba(51, 51, 51, 0.6);
+  padding: 20px 25px;
+  border: 2px solid #888;
+  font-family: monospace;
+}
+.main_form{
+  margin: 100px auto;
+  padding: 0;
+  background-color: rgba(0, 204, 0, 0.6);
+}
+.main_form > div{
+  transition: all 1s linear; 
+}
+
+
+.rotateX:hover{
+  transform: rotateX(140deg);
+}
+
+
+.rotateY:hover{
+  transform: rotateY(150deg);
+}
+
+
+.rotateZ:hover{
+  transform: rotateZ(-20deg);
+}
