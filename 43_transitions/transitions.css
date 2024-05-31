@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  margin: 100px auto;
+}
+
+.transition{
+  width: 200px;
+  height: 200px;
+  background-color: var(--clr);
+  transform: rotate(0deg);
+  opacity: 0.7;
+  margin: 100px auto;
+  padding: 20px;
+  color: inherit;
+  border: 3px solid palegreen;
+  border-radius: 0;
+  box-shadow: 0 0 10px palegreen;
+  
+  transition-property: width, height, background-color, transform, opacity, margin, padding, color, border, border-radius, box-shadow;
+  transition-duration: .5s, 1s, 0.75s, 3.5s, 2s, 1.5s, 1s, 1.2s, 1.4s, 3.5s, 1.7s;
+  transition-timing-function: linear, ease, ease-in, ease-out, ease-in-out, linear, ease, ease-in, ease-out, ease-in-out, linear;
+  transition-delay: .01s;
+}
+.transition:hover{
+  width: 300px;
+  height: 300px;
+  background-color: greenyellow;
+  transform: rotate(330deg);
+  opacity: 1;
+  margin: 150px auto;
+  padding: 50px;
+  color: black;
+  border: 5px solid forestgreen;
+  border-radius: 35%;
+  box-shadow: 10px 5px 10px lightgreen;
+}
+
+
+.transition_short{
+  width: 200px;
+  height: 200px;
+  background-color: var(--clr);
+  transform: rotate(0deg);
+  opacity: 0.7;
+  margin: 100px auto;
+  padding: 20px;
+  color: inherit;
+  border: 3px solid palegreen;
+  border-radius: 0;
+  box-shadow: 0 0 10px palegreen;
+  
+  transition: all 3s ease .01s;
+}
+.transition_short:hover{
+  width: 300px;
+  height: 300px;
+  background-color: greenyellow;
+  transform: rotate(330deg);
+  opacity: 1;
+  margin: 150px auto;
+  padding: 50px;
+  color: black;
+  border: 5px solid forestgreen;
+  border-radius: 35%;
+  box-shadow: 10px 5px 10px lightgreen;
+}
