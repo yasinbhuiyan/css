@@ -1,0 +1,51 @@
+/* common code*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div{
+  width: 330px;
+  height: 180px;
+  background: var(--clr);
+  padding: 20px 25px;
+  font-family: monospace;
+  margin: 100px auto;
+  color: #000;
+}
+/* common code*/
+
+
+
+/* animation full*/
+.anime_full{
+  animation-name: anime1;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.01s;
+  animation-iteration-count: 1;
+  animation-direction: normal; /* reverse, alternate, alternate-reverse */
+  animation-fill-mode: none; /* forwards, backwards, both */ 
+}
+@keyframes anime1{
+  from{
+    transform: translateX(-200px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+
+/* animation shorthand*/
+.anime_short{
+  animation: anime2 .5s ease-in 0.01s 1 normal none;
+}
+@keyframes anime2{
+  0%{
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateX(0)
+  }
+}
