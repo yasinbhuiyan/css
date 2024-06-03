@@ -20,24 +20,29 @@ a:hover, a:active{
 /* make tooltip by hover */
 .div_tooltip{
    position: relative;
- }
+}
 .tooltip{
-  position: absolute;
-  top: -50px;
-  left: 100px;
   margin: 0;
+  padding: 10px;
   background: #D2D2D2;
   color: #000000;
-  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: calc(100% + 10px); /* arrow border is 10px */
+  left: 50%;
+  width: 136px;
+  margin-left: -68px; /* half of width 136/2 = 68 */
   display: none;
 }
 .tooltip::after{
   content: '';
   border: 10px solid;
   border-color: #D2D2D2 transparent transparent transparent;
+  margin-left: -10px; /* border width is 10px */
   position: absolute;
-  top: 39px;
-  left: 61px;
+  top: 100%;
+  left: 50%;
+  
 }
 .div_tooltip:hover .tooltip{
   display: block;
