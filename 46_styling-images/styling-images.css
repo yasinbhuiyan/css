@@ -1,0 +1,229 @@
+/* common code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img, a, div{
+  display: block;
+  margin: 0 auto;
+}
+.margin{
+  margin-bottom: 40px;
+}
+/* common code */
+
+
+
+/* rounded image */
+.rounded{
+  border-radius: 20px;
+}
+.rounded_circle{
+  border-radius: 50%;
+}
+
+
+/* thumbnail image */
+.thumbnail__img{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.thumbnail__img:hover{
+  box-shadow: 0 0 10px #505050;
+}
+
+
+/* polaroid images / cards */
+.cards{
+  width: 400px;
+  height: auto;
+  background-color: #000000;
+  box-shadow: 4px 5px 10px #333;
+}
+.cards__img{
+  width: 100%;
+}
+.cards__div{
+  text-align: center;
+  padding: 30px;
+}
+
+
+/* position text */
+.position_text{
+  position: relative;
+  width: 400px;
+  color: #FFFFFF;
+}
+.position_text_img{
+  opacity: 0.5;
+  width: 100%;
+}
+.top_left{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.top_right{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom_left{
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.bottom_right{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+/* filter property */
+.filter{
+  max-width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter_none{
+  filter: none;
+}
+.filter_blur{
+  filter: blur(4px); /* more value more blur */
+}
+.filter_brightness{
+  filter: brightness(200%);
+}
+.filter_contrast{
+  filter: contrast(2000%);
+}
+.filter_grayscale{
+  filter: grayscale(100%);
+}
+.filter_hue_rotate{
+  filter: hue-rotate(180deg);
+}
+.filter_invert{
+  filter: invert(100%);
+}
+.filter_opacity{
+  filter: opacity(50%);
+}
+.filter_saturate{
+  filter: saturate(10);
+}
+.filter_sepia{
+  filter: sepia(100%);
+}
+.filter_drop_shadow{
+  filter: drop-shadow(5px 5px 10px #FFFFFF);
+}
+
+
+/* image hover overlay */
+.overlay_container{
+  width: 300px;
+  position: relative;
+}
+.overlay_img{
+  width: 100%;
+  display: block;
+}
+.overlay_able{
+  position: absolute;
+  width: 100%;
+  background-color: rgba(1, 178, 255, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+.overlay__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: serif;
+  font-variant: small-caps;
+}
+
+/* Fade In */
+.fade_in{
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.overlay_container:hover .fade_in{
+  opacity: 1;
+}
+
+
+/* Slide in (top) */
+.from_top{
+  top: 0;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  overflow: hidden;
+  height: 0;
+}
+.overlay_container:hover .from_top{
+  bottom: 0;
+  height: 100%;
+}
+
+
+/* Slide in (bottom) */
+.from_bottom{
+  top: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  height: 0;
+}
+.overlay_container:hover .from_bottom{
+  top: 0;
+  height: 100%;
+}
+
+
+/* Slide in (left) */
+.from_left{
+  top: 0;
+  right: 100%;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 0;
+}
+.overlay_container:hover .from_left{
+  right: 0;
+  width: 100%;
+}
+
+
+/* Slide in (right) */
+.from_right{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  overflow: hidden;
+  width: 0;
+}
+.overlay_container:hover .from_right{
+  left: 0;
+  width: 100%;
+}
