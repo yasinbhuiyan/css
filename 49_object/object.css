@@ -1,3 +1,4 @@
+/* common code */
 div{
   margin: 50px auto;
   background: #333;
@@ -10,7 +11,10 @@ img{
   height: inherit;
   width: 200px;
 }
+/* common code */
 
+
+/* object-fit */
 div:first-child{
   width: 400px;
 }
@@ -19,6 +23,7 @@ div:first-child img{
 }
 
 div::before{
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -28,13 +33,14 @@ div::before{
   color: #000;
   padding: 10px;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 11px;
+  text-align: center;
 }
 div:nth-child(1)::before{
   content: 'without object-fit property';
 }
 div:nth-child(2)::before{
-  content: 'object-fit: fill;';
+  content: 'object-fit: fill;(default)';
 }
 div:nth-child(3)::before{
   content: 'object-fit: cover;';
@@ -48,7 +54,6 @@ div:nth-child(5)::before{
 div:nth-child(6)::before{
   content: 'object-fit: scale-down;';
 }
-
 
 
 .fill{
@@ -66,3 +71,15 @@ div:nth-child(6)::before{
 .scale-down{
   object-fit: scale-down;
 }
+/* object-fit */
+
+
+
+/* object-position */
+div:nth-child(7)::before{
+  content: 'object-position: 80% 100%;';
+}
+.position{
+  object-position: 90% 100%;
+}
+/* object-position */
