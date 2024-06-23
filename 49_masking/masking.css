@@ -1,6 +1,26 @@
-.mask{
+img{
+  display: block;
+  margin: 30px auto;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* for PNG or SVG image */
+.mask__png{
   -webkit-mask-image: url(./img/mask.png);
   mask-image: url(./img/mask.png);
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;    
+  mask-repeat: no-repeat;
+}
+
+/* for gradient */
+.mask__linear{
+  -webkit-mask-image: linear-gradient(to right, black 60%, rgba(0,0,0,0.5) 40%);
+  mask-image: linear-gradient(to right, black 60%, rgba(0,0,0,0.5) 40%);
+}
+.mask__radial{
+  -webkit-mask-image: radial-gradient(circle, black 60%, rgba(0,0,0,0.5) 40%);
+  mask-image: radial-gradient(circle, black 60%, rgba(0,0,0,0.5) 40%);
+
 }
