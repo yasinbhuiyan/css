@@ -16,6 +16,11 @@ img, a, div{
 
 
 /* rounded image */
+img[class^="rounded"]{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
 .rounded{
   border-radius: 20px;
 }
@@ -25,10 +30,14 @@ img, a, div{
 
 
 /* thumbnail image */
+.thumbnail{
+  width: min(80%, 350px);
+}
 .thumbnail__img{
   border: 1px solid white;
   padding: 10px;
   border-radius: 10px;
+  width: 100%;
 }
 .thumbnail__img:hover{
   box-shadow: 0 0 10px #505050;
@@ -90,9 +99,12 @@ img, a, div{
 
 /* filter property */
 .filter{
-  max-width: 550px;
+  max-width: 500px;
   display: flex;
   flex-wrap: wrap;
+}
+img[class^="filter_"]{
+  width: 160px;
 }
 .filter_none{
   filter: none;

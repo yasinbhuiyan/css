@@ -6,6 +6,7 @@
 img{
   display: block;
   margin: 15px auto;
+  width: 100%;
 }
 div{
   width: 400px;
@@ -28,8 +29,9 @@ div{
   opacity: 1;
 }
 .back__img{
-  background: url(https://picsum.photos/400/300) no-repeat;
+  background: url(../images/background.jpeg) no-repeat;
   padding: 70px 40px;
+  background-size: cover;
 }
 .transparent{
   width: 100%;

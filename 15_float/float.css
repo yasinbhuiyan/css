@@ -12,6 +12,8 @@ p{
   padding: 15px;
 }
 img{
+  width: 350px;
+  height: 210px;
   padding: 15px;
 }
 .clearfix::after{
