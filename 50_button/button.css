@@ -23,7 +23,9 @@ div{
   font-size: 14px;
   cursor: pointer;
 }
-
+.btn:hover{
+  background: #00BB00;
+}
 
 /* border on hover */
 .border_btn1{
@@ -81,4 +83,67 @@ div{
 }
 .btn_group_vertical .btn:last-child{
   border-bottom: none;
+}
+
+
+/* animated buttons */
+.animated_btn{
+  width: 190px;
+}
+.animated_btn span{
+  display: inline-block;
+  position: relative;
+  transition: all .5s ease-in-out;
+}
+.animated_btn span::after{
+  content: '»';
+  position: absolute;
+  top: 0;
+  right: -20px;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+.animated_btn:hover span{
+  padding-right: 12px;
+}
+.animated_btn:hover span::after{
+  right: 0;
+  opacity: 1;
+}
+
+
+/* pressed buttons */
+.pressed_btn{
+  box-shadow: 0 8px #006F00
+}
+.pressed_btn:active{
+  box-shadow: 0 5px #005F00;
+  transform: translateY(4px)
+}
+
+
+/* ripple btn */
+.ripple_btn{
+  position: relative;
+  width: 65px;
+  overflow: hidden;
+  transition: all .4s ease;
+}
+.ripple_btn::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: #F1F1F1;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -35px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all .8s ease;
+}
+.ripple_btn:active::after{
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }

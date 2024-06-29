@@ -22,6 +22,7 @@ ol{
   padding: 15px 0 15px 50px;
   list-style: outside decimal-leading-zero;
   /* list-style-type: decimal-leading-zero; */
+
 }
 li{
   text-transform: uppercase;
@@ -42,12 +43,21 @@ li a{
   line-height: 40px;
   font-size: 16px;
   transition: .2s all linear;
-
+  transform: translateX(0);
+  animation: ol .2s ease-in;
 }
 li a:hover{
   background: var(--clr);
   margin-left: -45px;
   padding-left: 45px;
+}
+@keyframes ol{
+  0%{
+    transform: translateX(-30px)
+  }
+  100%{
+    transform: translateX(0)
+  }
 }
 .css_link{
   font-size: 16px;
