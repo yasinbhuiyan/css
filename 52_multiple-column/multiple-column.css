@@ -1,0 +1,13 @@
+.column{
+  column-count: 3;
+  column-gap: 40px;
+  /* column-rule-width: 2px;
+  column-rule-style: solid;
+  column-rule-color: #FFFFFF; */
+  column-rule: 2px solid #FFFFFF;
+  /* column-span: all; */
+  column-width: 100px;
+}
+.column_sapn{
+  column-span: all;
+}
