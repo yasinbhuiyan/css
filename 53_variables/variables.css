@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color: #A0A0A0;
+  --background: #00AA00;
+}
+.card{
+  margin: 20px auto;
+  width: 300px;
+  box-shadow: 0 0 10px var(--color);
+}
+.card h1{
+  padding: 110px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color)
+}
+.card p{
+  --color: #000000;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color);
+  background: var(--background);
+}
+
+
+@media screen and (min-width: 500px) {
+  .card p{
+    --color: #FFFFFF;
+    --background: #0000AA;
+  }
+}
