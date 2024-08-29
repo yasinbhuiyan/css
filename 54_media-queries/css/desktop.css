@@ -1,0 +1,6 @@
+.column_float{
+  width: 25%;
+}
+.column_flex{
+  flex: 25%;
+}
