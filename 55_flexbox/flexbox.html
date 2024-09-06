@@ -19,6 +19,10 @@
   <title>CSS Flexbox</title>
 </head>
 <body>
+  <!-----------------------
+  Parent Element (Container)
+  ------------------------->
+  
   <!-- flex direction -->
   <div class="flex_container flex_direction_row">
     <div>1</div>
@@ -26,21 +30,18 @@
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container flex_direction_row_reverse">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container flex_direction_column">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container flex_direction_column_reverse">
     <div>1</div>
     <div>2</div>
@@ -59,7 +60,6 @@
     <div>7</div>
     <div>8</div>
   </div>
-  
   <div class="flex_container flex_wrap_wrap">
     <div>1</div>
     <div>2</div>
@@ -70,7 +70,6 @@
     <div>7</div>
     <div>8</div>
   </div>
-  
   <div class="flex_container flex_wrap_wrap_reverse">
     <div>1</div>
     <div>2</div>
@@ -101,35 +100,30 @@
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container justify_content_center">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container justify_content_flex_end">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container justify_content_space_evenly">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container justify_content_space_around">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container justify_content_space_between">
     <div>1</div>
     <div>2</div>
@@ -144,28 +138,24 @@
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container align_items_center">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container align_items_flex_end">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container align_items_stretch">
     <div>1</div>
     <div>2</div>
     <div>3</div>
     <div>4</div>
   </div>
-  
   <div class="flex_container align_items_baseline">
     <div><h1>1</h1></div>
     <div><h6>2</h6></div>
@@ -188,7 +178,6 @@
     <div>11</div>
     <div>12</div>
   </div>
-  
   <div class="flex_container align_content_center">
     <div>1</div>
     <div>2</div>
@@ -203,7 +192,6 @@
     <div>11</div>
     <div>12</div>
   </div>
-  
   <div class="flex_container align_content_flex_end">
     <div>1</div>
     <div>2</div>
@@ -218,7 +206,6 @@
     <div>11</div>
     <div>12</div>
   </div>
-  
   <div class="flex_container align_content_space_around">
     <div>1</div>
     <div>2</div>
@@ -233,7 +220,6 @@
     <div>11</div>
     <div>12</div>
   </div>
-  
   <div class="flex_container align_content_space_between">
     <div>1</div>
     <div>2</div>
@@ -248,7 +234,6 @@
     <div>11</div>
     <div>12</div>
   </div>
-  
   <div class="flex_container align_content_stretch">
     <div>1</div>
     <div>2</div>
@@ -263,5 +248,26 @@
     <div>11</div>
     <div>12</div>
   </div>
+  
+  <!--------------------
+  Child Elements (Items)
+  --------------------->
+  
+  <!-- order -->
+  <div class="flex_container_item order">
+    <div style="order: 4">1</div>
+    <div style="order: 2">2</div>
+    <div style="order: 3">3</div>
+    <div style="order: 1">4</div>
+  </div>
+  
+  <!-- flex grow -->
+  <div class="flex_container_item flex_grow">
+    <div style="flex-grow: 2">1</div>
+    <div style="flex-grow: 1">2</div>
+    <div style="flex-grow: 2">3</div>
+    <div style="flex-grow: 5">4</div>
+  </div>
+  
 </body>
 </html>

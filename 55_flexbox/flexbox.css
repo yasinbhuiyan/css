@@ -22,8 +22,27 @@
 [class*="align_content_"]{
   height: 600px;
 }
+.flex_container_item{
+  margin: 10px;
+  padding: 10px;
+  background: #333333;
+  border: 1px solid #FFFFFF;
+}
+.flex_container_item div{
+  margin: 10px;
+  padding: 15px;
+  background: #00CC00;
+  color: #000000;
+  width: 150px;
+  text-align: center;
+}
 /* __common code */
 
+
+
+/* ---------------------- 
+Parent Element (Container)
+----------------------- */
 
 /* flex direction */
 .flex_direction_row{
@@ -153,3 +172,12 @@
   align-content: stretch;
 }
 /* __align content */
+
+
+
+/* ------------------- 
+Child Elements (Items)
+------------------- */
+.order, .flex_grow{
+  display: flex;
+}
