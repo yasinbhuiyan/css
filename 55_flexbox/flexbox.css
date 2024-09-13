@@ -11,9 +11,8 @@
 }
 .flex_container div{
   margin: 10px;
-  padding: 15px;
+  padding: 15px 25px;
   background: #000000;
-  width: 150px;
   text-align: center;
 }
 [class*="align_items_"]{
@@ -25,15 +24,14 @@
 .flex_container_item{
   margin: 10px;
   padding: 10px;
-  background: #333333;
-  border: 1px solid #FFFFFF;
+  background: #111;
+  border: 1px solid #444;
 }
 .flex_container_item div{
   margin: 10px;
-  padding: 15px;
+  padding: 15px 25px;
   background: #00CC00;
   color: #000000;
-  width: 150px;
   text-align: center;
 }
 /* __common code */
@@ -178,6 +176,57 @@ Parent Element (Container)
 /* ------------------- 
 Child Elements (Items)
 ------------------- */
-.order, .flex_grow{
+.order{
   display: flex;
+}
+.flex_grow{
+  display: flex;
+}
+.flex_shrink{
+  display: flex;
+}
+.flex_shrink div{
+  width: 150px;
+}
+.flex_basis{
+  display: flex;
+}
+.flex{
+  display: flex;
+}
+.align_self{
+  display: flex;
+  height: 200px;
+}
+
+
+
+/*-------------
+flex responsive
+-------------*/
+
+/* flex responsive by flex-direction */
+.flex_direction_responsive{
+  display: flex;
+  flex-direction: row; /* default */ 
+}
+@media screen and (max-width: 600px){
+  .flex_direction_responsive{
+    flex-direction: column;
+  }
+}
+
+
+/* flex responsive by flex basis */
+.flex_basis_responsive{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex_basis_responsive .flex_item{
+  flex: calc(25% - 20px); /* 20px is margin (left is 10px + right is 10px) */
+}
+@media screen and (max-width: 600px){
+  .flex_basis_responsive .flex_item{
+    flex: 100%;
+  }
 }
