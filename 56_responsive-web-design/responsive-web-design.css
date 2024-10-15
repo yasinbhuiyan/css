@@ -20,10 +20,7 @@
 .section{padding: 50px 15px;}
 .section h2{padding: 5px 0; color: #FFFFFF;}
 .section p{padding: 5px 0; line-height: 1.3}
-/* .section picture img{
-  max-width: 100%;
-  height: 100%;
-} */
+
 .aside{padding: 40px; background: #FF0000; color: #FFFFFF; text-align: center;}
 .aside h3{color: #FFFFFF;}
 .aside p{padding: 5px 0 30px 0;}
