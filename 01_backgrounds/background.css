@@ -1,31 +1,31 @@
-div {
+div{
+  margin: 30px auto;
+  border: 1px solid var(--clr);
   width: 300px;
   height: 300px;
-  border: 1px solid var(--clr);
-  margin: 30px auto;
 }
 
-.color {
+.color{
   background: var(--clr);
 }
 
-.image {
+.image{
   background: url("../images/icon.png");
   background-size: cover;
 }
 
-.fixed {
+.fixed{
   background: url("../images/icon.png");
   background-attachment: fixed;
   background-size: 100%;
 }
 
-.repeat {
+.repeat{
   background: url("../images/icon.png");
   background-size: 100px;
 }
 
-.no-repeat {
+.no-repeat{
   background: url("../images/icon.png");
   background-repeat: no-repeat;
   background-position: top right;

@@ -3,9 +3,9 @@
   padding: 0;
 }
 div, p{
+  padding: 20px 30px;
   background: var(--clr);
   color: #FFFFFF;
-  padding: 20px 30px;
 }
 .margin{
   margin-top: 30px;

@@ -16,11 +16,12 @@ div{
   position: relative;
 }
 .margin{
-  width: 410px;
+  margin: 20px auto;
+  border: 1px dashed #bbb;
   padding: 45px;
   background: #f1f1f1;
-  border: 1px dashed #bbb;
-  margin: 20px auto;
+  width: 410px;
+  
 }
 .border{
   padding: inherit;

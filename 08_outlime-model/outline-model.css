@@ -45,10 +45,10 @@ div{
 }
 
 .outline1{
-  width: 290px;
-  padding: 40px;
-  border: 40px solid #04AA6D;
-  outline: 40px solid #FFFFFF; /* ⚠ Outline don't occupy space. */
   margin: 80px auto;
+  outline: 40px solid #FFFFFF; /* ⚠ Outline don't occupy space. */
+  border: 40px solid #04AA6D;
+  padding: 40px;
+  width: 290px;
   color: #FFFFFF;
 }
