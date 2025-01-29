@@ -6,9 +6,9 @@
 
 /* inline */
 .inline__menu{
+  margin-bottom: 30px;
   list-style: none;
   background: #1f1f1f;
-  margin-bottom: 30px;
 }
 .inline__menu li{
   display: inline-block;

@@ -1,8 +1,8 @@
 .common{
-  color: #FFFFFF;
-  padding: 15px 20px;
-  background: #1f1f1f;
   margin: 15px 0;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  background: #1f1f1f;
 }
 
 /* anchor pseudo-classes */
@@ -50,9 +50,9 @@ a:hover, a:active{
 
 /* first child */
 .first_child p:first-child{
+  padding: 15px 20px;
   background: #D2D2D2;
   color: #000000;
-  padding: 15px 20px;
 }
 .first_child p:first-child span:first-child{
   color: #00AA00

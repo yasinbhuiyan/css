@@ -1,6 +1,6 @@
 div{
-  border: 1px solid #FFFFFF;
   margin: 10px 0;
+  border: 1px solid #FFFFFF;
 }
 .descendant p,
 .child > p,

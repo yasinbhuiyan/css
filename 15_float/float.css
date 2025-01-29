@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 div{
-  background: #1f1f1f;
   margin-bottom: 70px;
+  background: #1f1f1f;
 }
 p{
-  font-size: 20px;
   padding: 15px;
+  font-size: 20px;
 }
 img{
+  padding: 15px;
   width: 350px;
   height: 210px;
-  padding: 15px;
 }
 .clearfix::after{
   content: '';
@@ -32,7 +32,7 @@ img{
   background: none;
 }
 .div_float div{
-  float: left;
-  padding: 30px 50px;
   margin: 10px;
+  padding: 30px 50px;
+  float: left;
 }

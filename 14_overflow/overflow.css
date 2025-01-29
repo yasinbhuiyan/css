@@ -1,9 +1,9 @@
 div{
+  margin: 80px auto;
+  padding: 15px 20px;
   width: 250px;
   height: 150px;
   background: #1F1F1F;
-  padding: 15px 20px;
-  margin: 80px auto;
 }
 .visible{
   overflow: visible;
@@ -17,11 +17,10 @@ div{
 .auto{
   overflow: auto;
 }
-
-.x_y p{
-  white-space: nowrap;
-}
 .x_y{
   overflow-x: auto;
   overflow-y: hidden;
+}
+.x_y p{
+  white-space: nowrap;
 }

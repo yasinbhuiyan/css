@@ -50,29 +50,29 @@ textarea{
   height: 200px;
 }
 input[id="submit"]{
+  margin: 20px 0
   background: var(--clr);
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #818181;
   font-size: 18px;
-  margin: 20px 0
 }
 
 
 @media screen and (min-width: 600px) {
   .col-25{
-  float: left;
-  width: 25%;
-  margin-top: 6px;
+    margin-top: 6px;
+    float: left;
+    width: 25%;
   }
   .col-75{
+    margin-top: 6px;
     float: left;
     width: 75%;
-    margin-top: 6px;
   }
   .row::after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
   }
   label{
     padding: 0;

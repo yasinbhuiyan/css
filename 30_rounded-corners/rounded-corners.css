@@ -1,9 +1,9 @@
 div{
+  margin: 10px;
+  margin: 10px auto;
+  background: var(--clr);
   height: 150px;
   width: 200px;
-  margin: 10px;
-  background: var(--clr);
-  margin: 10px auto;
   position: relative;
 }
 p{

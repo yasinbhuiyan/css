@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 div{
+  margin: 20px 0;
   padding: 30px 40px;
   background: #1f1f1f;
-  margin: 20px 0;
 }
 .clearfix{
-  background: none;
   padding: 0;
+  background: none;
 }
 .clearfix::after{
   content: '';
@@ -19,8 +19,8 @@ div{
 }
 
 .margin{
-  width: 70%;
   margin: 20px auto;
+  width: 70%;
 }
 .text_align{
   text-align: center;
