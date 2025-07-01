@@ -1,22 +1,22 @@
 div{
+  margin: 50px auto;
   height: 300px;
   width: min(100%, 400px);
-  margin: 50px auto;
   box-sizing: border-box;
 }
 
 
 /* transparent Keyword */
 .transparent{
+  padding: 70px 20px;
   background-image: url(../32_multiple-backgrounds/images/background.png);
   position: relative;
-  padding: 70px 20px;
 }
 p[class^="transparent__with"]{
-  color: #FFFFFF;
+  margin: 15px 0;
   padding: 15px;
   border: 2px solid #FFFFFF;
-  margin: 15px 0;
+  color: #FFFFFF;
 }
 .transparent__with{
   background-color: transparent;

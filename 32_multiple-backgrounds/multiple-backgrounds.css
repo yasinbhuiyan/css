@@ -1,7 +1,7 @@
 div{
+  margin: 50px auto;
   height: 300px;
   width: min(400px, 100%);
-  margin: 50px auto;
   box-shadow: 0px 0px 15px #A6A6A6;
   box-sizing: border-box;
 }
